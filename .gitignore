@@ -1,0 +1,58 @@
+# ============================================
+# Python Virtual Environments
+# ============================================
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# ============================================
+# Byte-compiled / Optimized / C-Extension Files
+# ============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+*.pyo
+
+# ============================================
+# Large Dataset Files / Downloads
+# ============================================
+# Ignore heavy downloaded binary MNIST files (Iris.csv is kept)
+Data sets/Mnist/
+*.idx3-ubyte
+*.idx1-ubyte
+*.ubyte
+*.gz
+*.zip
+*.tar
+*.tar.gz
+
+# ============================================
+# Model Checkpoints & Large Output Artifacts
+# ============================================
+output/
+*.joblib
+*.pt
+*.pth
+*.onnx
+
+# Keep output directory structure if desired
+!output/.gitkeep
+
+# ============================================
+# OS & IDE Generated Files
+# ============================================
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.log
+
+# IDEs
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
